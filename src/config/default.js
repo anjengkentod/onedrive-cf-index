@@ -12,7 +12,7 @@ const config = {
    */
   type: {
     accountType: 0,
-    driveType: 0,
+    driveType: 1,
     hostName: null,
     sitePath: null
   },
@@ -21,10 +21,10 @@ const config = {
    * You can use this tool http://heymind.github.io/tools/microsoft-graph-api-auth
    * to get following params: client_id, client_secret, refresh_token & redirect_uri.
    */
-  refresh_token: REFRESH_TOKEN,
+  refresh_token: '0.AAAA1jHppRBp1EWAPFNpNB5dHzXc1HhGfsZCkCMtOTFEM6VKAFg.AgABAAAAAAD--DLA3VO7QrddgJg7WevrAgDs_wQA9P8y4wXX7RkI0-3yaFYm5m6RRwZe7LJKj7qJI7RljZbrPNADewPHAzawUcCsXGXHul_RJcyl9t3hGa1yZa_s-YFdGwYROIIAJmQovtc18upiuYr5oiC83mMmHiKuJrMAT0WMw7hV_Y2JQe0i_QRcGq9UwkVrN9ROVVus1ewziLapj0P_LOF-jRZg_0HfEOHMM-TUQREP3Gf-BU16eDwoXgqTs8KtvQzrBcVd3PHx4nXKKE6kBUqva2-_D2-QET17_qsde398ILsvHRIFUlm4YDPnAZfSLCPFo0jgEa14XX4dyId9MeYmKb4zkds38muMFHvshCc4e0FUKTqdtG4bIkBd0e_4bPo2uH_snILMWnyjXUull-mb427guWTzlzV8zskxWVI6sTFNGvpcU9xECEadL_0NRFmqoGzP3YrYMWQbJ_2LygNae3OkAuQcwVTAQgCMrOHlqXdl6gLWwGeMawS-52r274wMJlHHpmPQZ_xsTVmayaqJeGseB-819lefC82GAja4VEUqOzL7gEVgBeTpnvzstCmhu46DW-t1xzet_G5zCT7hHpZ-ealpBJsGFg68VWvIGyHN0n1RwCBEe9aOV2EyUaO4A8CZWot8BIvlhkjiq5Fp_HW-7N7cCzPiUI8HFyw0chw7SGtShyk80m334zYlwEZBNoiE8QBGjaY0zkl5oFGcWmeyGWr6VY7VcDgmb_JWDd--5yyxEqP5XfvNkL5djcotA5VjBa4BF3EUjxWxjxRkBsXkWvtZGD8QuSlaDdHSlRQ2Sa4qKs29NddgPU2Yuua8-840SjN7qelsrSuHKb-eYxfmf2NJ3QsJxr97fpyzbUqBkeRU-_JYkJC75kffrQ08HmKuyE3HAlCYnVzMGxEEZO8ycD9iMgVe5taN-wxbKaBvZ8OKgwUH8sQFmNOg29lb',
   client_id: '6600e358-9328-4050-af82-0af9cdde796b',
-  client_secret: CLIENT_SECRET,
-  redirect_uri: 'https://heymind.github.io/tools/microsoft-graph-api-auth',
+  client_secret: 'ZudGl-p.m=LMmr3VrKgAyOf-WevB3p50',
+  redirect_uri: 'http://localhost/onedrive-login',
 
   /**
    * The base path for indexing, all files and subfolders are public by this tool. For example: `/Public`.
